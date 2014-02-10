@@ -1,0 +1,63 @@
+{
+  /* 
+    IMPORTANT:
+    Do NOT edit the default QuickRef settings. Your changes will be lost when QuickRef is updated. 
+    ALWAYS edit the user QuickRef settings by selecting Preferences->Package Settings->QuickRef->Settings - User.
+    Note that individual settings you include in your user settings will completely replace the corresponding 
+    default setting, so you must provide that setting in its entirety.
+  */
+
+  "settings":
+  {
+    // Hardcore mode will not allow you to run any commands from the command palette, thus forcing
+    // you to remember them instead.
+    "hardcore_mode": false,
+
+    // Sort commands alphabetically or in the order that they are added to the settings file.
+    "sort_alphabetically": true,
+
+    // Beautify captions. E.g.: "clear_fields" -> "Clear fields". Great for users who don't want to add separate
+    // captions manually.
+    "beautify_captions": true,
+
+    // Show favourite commands in the QuickRef command palette. Favourites will be displayed at the top of the list
+    // with a prefixed (*).
+    "show_favourites": true,
+
+    // Show commands from the QuickRef user settings file.
+    "show_user_commands": true,
+
+    // Show commands from the user key bindings file.
+    "show_user_key_bindings": false,
+
+    // Show commands from the default key bindings file.
+    "show_default_key_bindings": false,
+
+    // Show contexts for commands. Will be displayed in parenthesis after a command.
+    // Note: This may increase the number of commands displayed in QuickRef.
+    "show_command_contexts": false,
+
+    // When setting "include_default_key_bindings" to true, this removes duplicate commands.
+    // Note 1: Duplicates are often the result of the same command having different contexts. "remove_duplicates"
+    //   may therefore accidentally remove commands with useful contexts.
+    // Note 2: User key bindings and user commands are not affected by this setting. User commands will always
+    //   overwrite defualt and user key bindings; user key bindings will always overwrite default keybindings only; 
+    //   default key bindings will never overwrite any of the previous.
+    "remove_duplicates": true,
+
+    // When "remove_duplicates" is set to "false", setting this option to "true" will remove commands with
+    // duplicate contexts and thereby reduce potentially superfluous items.
+    "remove_duplicate_contexts": true,
+
+    // Filter out commands by shortcut keys. Only commands with at least one key corresponding to a key in this 
+    // list will be visible. An empty list ([]) will disable filtering and show all commands.
+    "key_filter": ["ctrl", "shift", "alt", "super"]
+  },
+
+  "commands": 
+  [
+    // Example setting, shows "QuickRef" and "alt+p" in the Command Palette. "caption" is optional. "args" 
+    // is necessary depending on the command (can be left out altogether if not used).
+    { "keys": ["alt+p"], "command": "quick_ref", "args": {}, "caption": "QuickRef" }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "file_history_retention": 30, // In days
+  "file_size_limit": 262144, // 256 KB
+  "history_on_close": false // Store history only on close
+}

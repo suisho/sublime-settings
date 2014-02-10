@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+\$this->controller->getLogger()->dump(Logger::LOG_WARNING,"${0}");
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>dump</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Dump log</description>
+</snippet>
+<snippet>
+    <content><![CDATA[
+\$this->controller->getLogger()->log(Logger::LOG_WARNING,"${0}");
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>log</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Log</description>
+</snippet>
+<snippet>
+    <content><![CDATA[
+require_once 'action/DefaultAction.php';
+class ${0} extends DefaultAction{
+    public function exec(){
+    }
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>action</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Action</description>
+</snippet>

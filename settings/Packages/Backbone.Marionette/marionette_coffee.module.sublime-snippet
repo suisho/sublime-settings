@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:MyApp}.module("${2:MyModule}", ($2, $1) ->
+  # Private
+  # --------------------------
+
+
+  # Public 
+  # -------------------------
+  
+
+
+  # Initializers
+  # -------------------------
+  
+
+  
+  )  
+)
+]]></content>
+    <tabTrigger>bmmc</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>Backbone.Marionette.Application.module skeleton</description>
+</snippet>

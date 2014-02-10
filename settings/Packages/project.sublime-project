@@ -1,0 +1,13 @@
+{
+  "folders":
+  [
+    { "path": "User"},
+    { "path": "CloseOthers"},
+    { "path": "OpenInNewWindow"}
+    
+  ],
+  "settings" : {
+    "tab_size": 2,
+    "default_line_ending": "unix"
+  }
+}

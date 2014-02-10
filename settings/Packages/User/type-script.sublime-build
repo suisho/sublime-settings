@@ -1,0 +1,5 @@
+{
+    "selector": "source.ts",
+    "cmd": ["tsc.cmd", "$file"],
+    "file_regex": "^(.+?) \\((\\d+),(\\d+)\\): (.+)$"
+}

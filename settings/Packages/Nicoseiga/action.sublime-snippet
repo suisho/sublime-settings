@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+require_once 'action/DefaultAction.php';
+class ${0}Action extends DefaultAction{
+    public function exec(){
+    }
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>action</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Action</description>
+</snippet>

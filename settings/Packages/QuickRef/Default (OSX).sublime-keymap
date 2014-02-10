@@ -1,0 +1,5 @@
+[
+  // Toggle QuickRef
+  { "keys": ["ctrl+p"], "command": "quick_ref", "args": { "regular_run_mode": true }},
+  { "keys": ["ctrl+shift+p"], "command": "quick_ref"}
+]

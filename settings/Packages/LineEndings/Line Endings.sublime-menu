@@ -1,0 +1,8 @@
+[
+	{ "caption": "-" },
+	{ "command": "set_line_ending_window", "args": {"type": "cr"}, "caption": "Line Ending to all views: Mac OS 9"},
+	{ "command": "set_line_ending_window", "args": {"type": "windows"}, "caption": "Line Ending to all views: Windows" },
+	{ "command": "set_line_ending_window", "args": {"type": "unix"}, "caption": "Line Ending to all views: Unix" },
+	{"caption":"-"},
+
+]

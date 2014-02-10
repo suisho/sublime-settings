@@ -1,0 +1,7 @@
+[
+	{ "caption": "-" },
+	{ "command": "convert_indentation_window", "args": {"type": "spaces"}, "caption": "Convert Indentation to all views to Spaces"},
+	{ "command": "convert_indentation_window", "args": {"type": "tabs"}, "caption": "Convert Indentation to all views to Tabs" },
+	{ "caption": "-" }
+
+]

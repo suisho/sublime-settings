@@ -1,0 +1,1350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wind",
+				"window"
+			],
+			[
+				"self",
+				"self_view"
+			],
+			[
+				"sel",
+				"self_view"
+			],
+			[
+				"pro",
+				"process.getuid();"
+			],
+			[
+				"pr",
+				"process.chdir();"
+			],
+			[
+				"fsfilesy",
+				"fs.writeFileSync(path, data, encoding);"
+			],
+			[
+				"unli",
+				"fs.unlinkSync(path);"
+			],
+			[
+				"cos",
+				"console.log();"
+			],
+			[
+				"stat",
+				"fs.stat(path, callback);"
+			],
+			[
+				"assert",
+				"assert.deepEqual(actual, expected, message);"
+			],
+			[
+				"deepeq",
+				"assert.deepEqual(actual, expected, message);"
+			],
+			[
+				"readDir",
+				"fs.readdirSync(path);"
+			],
+			[
+				"equals",
+				"assert.equal(actual, expected, message);"
+			],
+			[
+				"read",
+				"fs.readFile(path, encoding_);"
+			],
+			[
+				"readF",
+				"fs.readFileSync(path, encoding);"
+			],
+			[
+				"camp",
+				"campaignInfo"
+			],
+			[
+				"vaR",
+				"var_dump"
+			],
+			[
+				"http_ur",
+				"http_build_query"
+			],
+			[
+				"ma",
+				"sliderMax"
+			],
+			[
+				"key",
+				"keyup"
+			],
+			[
+				"grad",
+				"gradBottom"
+			],
+			[
+				"gradt",
+				"gradTop"
+			],
+			[
+				"gr",
+				"linear-gradient"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pin",
+				"Package Control: Install Package"
+			],
+			[
+				"git di",
+				"Git: Diff All"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git d",
+				"Git: Diff All"
+			],
+			[
+				"git in",
+				"Git: Init"
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"keybi",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"Defaul",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"pin",
+				"Package Control: Install Package"
+			],
+			[
+				"PIn",
+				"Package Control: Install Package"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"Pl",
+				"Package Control: List Packages"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"PI",
+				"Package Control: Install Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"hunk",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git res",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git diff st",
+				"Git: Diff Staged"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git  curr",
+				"Git: Add Current File"
+			],
+			[
+				"lint err",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"key b",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"git stash",
+				"Git: Stash Apply"
+			],
+			[
+				"linerr",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"PDis",
+				"Package Control: Disable Package"
+			],
+			[
+				"linterror",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"user ",
+				"Preferences: SublimeLint – User"
+			],
+			[
+				"jsli",
+				"JSHint: Linter"
+			],
+			[
+				"PL",
+				"Package Control: List Packages"
+			],
+			[
+				"Package List ",
+				"Package Control: List Packages"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"PCI",
+				"Package Control: Install Package"
+			],
+			[
+				"PC re",
+				"Package Control: Remove Package"
+			],
+			[
+				"TextF",
+				"TextFormatting - Prettify JSON"
+			],
+			[
+				"key de",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"codeinte",
+				"SublimeCodeIntel: Enable Live Autocompletion"
+			],
+			[
+				"Pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Setting ",
+				"Preferences: Settings - Default"
+			],
+			[
+				"Config",
+				"Preferences: OpenFolder Settings - User"
+			],
+			[
+				"setting",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"Pack In",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"git",
+				"Git: Show Tags"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"Toggle",
+				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"comman",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"n",
+				"Nodejs::Build Completions"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa lis",
+				"Package Control: List Packages"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"package ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"term",
+				"Preferences: Terminal Key Bindings – User"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"Pa in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"PR",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"view",
+				"File: New View into File"
+			],
+			[
+				"View to",
+				"View: Toggle Status Bar"
+			],
+			[
+				"View",
+				"View: Toggle Status Bar"
+			],
+			[
+				"Open fi",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 64.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/Tools/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/OpenInNewWindow/open_in_new_window.py",
+		"/G/Tools/SublimeText2/Data/Packages/OpenInNewWindow/Default.sublime-keymap",
+		"/G/Tools/SublimeText2/Data/Packages/project.sublime-project",
+		"/G/Tools/SublimeText2/Data/Packages/Open-Include/Open-Include.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/Open-Include/open_include.py",
+		"/G/Tools/SublimeText2/Data/Packages/Open-Include/open_include.pyc",
+		"/G/Tools/SublimeText2/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/G/Dropbox/github/cssjoin/.npmignore",
+		"/G/dropbox/github/cssjoin/test/mocha.js",
+		"/G/Tools/SublimeText2/Data/Packages/LineEndings/LineEndings.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/LineEndings/LineEndings.py",
+		"/G/Tools/SublimeText2/Data/Packages/LineEndings/Commands.sublime-commands",
+		"/G/Dropbox/github/cssjoin/.gitignore",
+		"/G/Dropbox/github/cssjoin/lib/cssjoin.js",
+		"/G/dropbox/github/cssjoin/test/mocha.opts",
+		"/G/Dropbox/github/cssjoin/index.js",
+		"/G/Dropbox/github/cssjoin/README.md",
+		"/G/Dropbox/github/cssjoin/bin/cssjoin.js",
+		"/G/Tools/SublimeText2/Data/Packages/User/Git.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeLinter/README.md",
+		"/G/Tools/SublimeText2/Data/Packages/Git/Git.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/User/SublimeLint.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/GotoTab/GotoTab.py",
+		"/G/Tools/SublimeText2/Data/Packages/GotoTab/Default (Windows).sublime-keymap",
+		"/G/Dropbox/github/grunt-cssjoin/project.sublime-project",
+		"/G/Dropbox/github/grunt-contrib-less/grunt.js",
+		"/C/Users/sui/Downloads/less.js-1_4_0/less.js-1_4_0/884/hoge-block.less",
+		"/C/Users/sui/Downloads/less.js-1_4_0/less.js-1_4_0/884/some-block.less",
+		"/G/Tools/SublimeText2/Data/Packages/Unbound Tab Key/Default.sublime-keymap",
+		"/C/Users/sui/Downloads/less.js-master (1)/less.js-master/884/_mixin.less",
+		"/C/Users/sui/Downloads/less.js-master (1)/less.js-master/884/hoge-block.less",
+		"/C/Users/sui/Downloads/less.js-master (1)/less.js-master/884/some-block.less",
+		"/G/Tools/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/G/Tools/SublimeText2/Data/Packages/Stupid Indent/README.md",
+		"/G/Dropbox/github/cssjoin/test/mocha.js",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeCodeIntel/Main.sublime-menu",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-mousemap",
+		"/G/Tools/SublimeText2/Data/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/G/Dropbox/github/kura/dotfile/gitconfig",
+		"/G/Tools/SublimeText2/Data/Packages/Terminal/Terminal.sublime-settings",
+		"/G/Dropbox/github/cssjoin/node_modules/ricue/tmp/a/app.js",
+		"/G/Dropbox/github/kura/dotfile/gitignore",
+		"/G/Dropbox/github/kura/dotfile/bash_aliases",
+		"/G/Tools/SublimeText2/Data/Packages/Default/Preferences.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Packages/User/OpenFolder.sublime-settings",
+		"/G/Tools/SublimeText2/Data/Settings/Session.sublime_session",
+		"/G/Dropbox/github/cssjoin/node_modules/ricue/index.js",
+		"/C/data/nico_seiga/svn/seigappha/index.js",
+		"/C/data/nico_seiga/svn/sel/mklink.js",
+		"/C/data/nico_seiga/svn/seigappha/node_modules/expect/expect.js",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha-yaruo-reporter/index.js",
+		"/G/Dropbox/linux/install.pl",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha-yaruo-reporter/template/index.html",
+		"/G/Dropbox/github/cssjoin/package.json",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha/bin/_mocha",
+		"/G/Dropbox/github/cssjoin/node_modules/ricue/package.json",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha-yaruo-reporter/package.json",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha/_mocha.js",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha/test.js",
+		"/G/Dropbox/SublimeText2/Data/Packages/Default/Preferences.sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/C/data/Dropbox/SublimeText2/Data/Packages/Default/Preferences.sublime-settings",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha/bin/mocha",
+		"/G/Dropbox/github/cssjoin/project.sublime-project",
+		"/G/Dropbox/github/cssjoin/node_modules/ricue/README.md",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha/lib/reporters/html.js",
+		"/G/Dropbox/github/cssjoin/npm-debug.log",
+		"/G/Dropbox/SublimeText2/Data/Settings/Session.sublime_session",
+		"/G/Dropbox/github/cssjoin/memo/narmin.js",
+		"/G/Dropbox/github/cssjoin/test/fixture/resolve_path/input/main.css",
+		"/G/tmp/node_modules/cssjoin/bin/cssjoin.js",
+		"/G/Dropbox/github/cssjoin/test/fixture/resolve_path/input/htdocs2/parts2.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/replace_map_test/dir/replace_map.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/resolve_path/output/main.css",
+		"/G/Dropbox/github/cssjoin/lib/util.js",
+		"/G/Dropbox/github/cssjoin/test/mocha.opts",
+		"/G/Dropbox/github/less.muhi/node_modules/less/bin/lessc",
+		"/G/Dropbox/github/cssjoin/test/fixture/remove_comment/input.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/remove_comment/output.css",
+		"/G/Dropbox/github/less.muhi/test/lib/less/converter-test.js",
+		"/G/Dropbox/github/less.muhi/test/lib/less/replace_rule-test.js",
+		"/G/Dropbox/github/less.muhi/test/lib/simple_tree-test.js",
+		"/G/Dropbox/github/less.muhi/test/lib/fs_extend-test.js",
+		"/G/Dropbox/github/less.muhi/lib/less/converter.js",
+		"/G/Dropbox/github/cssjoin/test/fixture/cannot_import/output/main.css",
+		"/G/Dropbox/github/cssjoin/test/../memo/narmin.js",
+		"/G/tmp/node_modules/cssjoin/.npmignore",
+		"/G/Dropbox/github/cssjoin/test/fixture/simple/input/main.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/1/output/main.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/1/input/main.css",
+		"/G/Dropbox/github/cssjoin/test/fixture/1/input/dir/parts.css",
+		"/G/Dropbox/github/cssjoin/test/util.js",
+		"/G/Dropbox/github/cssjoin/lib/cssinclude.js",
+		"/G/Dropbox/github/mocha-aa-reporter/.git/config",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha-aa-reporter/index.js",
+		"/G/Dropbox/github/cssjoin/node_modules/mocha-aa-reporter/success/yaruo.txt",
+		"/G/Dropbox/github/mocha-aa-reporter/index.js",
+		"/G/Dropbox/github/mocha-aa-reporter/package.json",
+		"/G/Dropbox/github/cssjoin/test/cssjoin.js",
+		"/G/Dropbox/github/cssjoin/.git/config",
+		"/G/Dropbox/SublimeText2/Data/Packages/Open Folder/OpenFolder (Windows).sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/Open Folder/OpenFolder.py",
+		"/G/Dropbox/github/cssjoin/lib/",
+		"/G/Dropbox/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/G/Dropbox/SublimeText2/Data/Packages/User/Terminal.sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/Terminal/Terminal.sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/Nodejs/Nodejs.sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/G/Dropbox/SublimeText2/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/G/Dropbox/SublimeText2/Data/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/G/Dropbox/SublimeText2/Data/Packages/Pig/Pig.sublime-settings",
+		"/G/Dropbox/github/css-inclusion/test/cssinclude.js",
+		"/G/Dropbox/github/css-inclusion/test/util.js",
+		"/G/Dropbox/github/css-inclusion/lib/util.js",
+		"/G/Dropbox/github/css-inclusion/lib/cssinclude2.js",
+		"/G/Dropbox/github/css-inclusion/test/mocha.opts",
+		"/G/Dropbox/github/css-inclusion/project.sublime-project",
+		"/G/Dropbox/github/css-inclusion/package.json",
+		"/G/Dropbox/github/css-inclusion/oldtest.js",
+		"/G/Dropbox/github/css-inclusion/test/mocha.js",
+		"/G/Dropbox/github/css-inclusion/test/extend.js",
+		"/G/Dropbox/github/css-inclusion/test/fixture/3/output/main.css",
+		"/G/Dropbox/github/css-inclusion/test/index.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.js,-less-*.js",
+			"*.js,-*.min.js",
+			"*.js",
+			"*.html",
+			"*",
+			"*.js",
+			"*.html",
+			"",
+			"*.html",
+			".html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"new",
+			"panel",
+			"jshint",
+			"js",
+			"    ",
+			"insert",
+			"\"indent\"",
+			"\"tab\"",
+			"tab",
+			"change",
+			"line_ending",
+			"reporter",
+			"file_ex",
+			"ignore",
+			"rule",
+			"fixture/5",
+			"fixture/3",
+			"cloneArray",
+			"cssContent",
+			"cssContet",
+			"ctrl+shift+t",
+			"open",
+			"exclude_",
+			"commander",
+			"require",
+			"-r",
+			"--r",
+			"req",
+			"resolveP",
+			"move",
+			"f2",
+			"name",
+			"treeToCss",
+			"CssInclusion",
+			"trim",
+			"optimization",
+			"eval",
+			"root.eval",
+			"paths",
+			"includeC",
+			"toCss",
+			"to",
+			"ignores",
+			"css",
+			"name",
+			"compress",
+			"close",
+			"get",
+			"apply",
+			"apply]",
+			"apply",
+			"update",
+			"getIndexEvent",
+			"getCachedIndexEvent",
+			"getIndexEvent",
+			"select_helper",
+			"ctrl+shift+d",
+			"ctrl+d",
+			"応募期間中は公開",
+			"応募期間中は非公開",
+			"api_key",
+			"data-nico-API-Date",
+			"canonical",
+			".sheets",
+			".[sheets",
+			"sheets",
+			"sheet",
+			"bysolr",
+			"count",
+			"bysolr",
+			"$j.cookie",
+			"0*60*60*24*365",
+			"setResponseMode",
+			"tab_",
+			"get",
+			"getRe",
+			"sliderMax",
+			"getSliderValue",
+			"syncDisplayHandle",
+			"scroll",
+			"onScroll",
+			"jknav",
+			"JknavController",
+			"btn_slide_small",
+			"dic_",
+			"dic_load",
+			"dic_on",
+			"getListWithBookmark",
+			".thumb .status",
+			".con",
+			" thumb\"",
+			"thumb\"",
+			"class=\"thumb ",
+			"class=\"thumb",
+			"statsus",
+			"status",
+			".thumb .status",
+			"$clip",
+			"updatePoints",
+			"point episode",
+			"point",
+			"color",
+			"controls",
+			"tag_block",
+			":first",
+			"comment_table",
+			"tag_block",
+			"controls",
+			".comment",
+			".comments",
+			"tag_",
+			"controls",
+			"control",
+			"tag",
+			"tag_block",
+			"controls",
+			"td",
+			"comment_table",
+			"comment_",
+			"controls",
+			"time",
+			"times",
+			"controls",
+			"disabled",
+			"contro",
+			"controll",
+			"color",
+			"a_button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"fixture/cannnot_import",
+			"fixture/basic",
+			"CssInclude",
+			"accept",
+			".comment_table"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 32.0
+	},
+	"output.git":
+	{
+		"height": 180.0
+	},
+	"output.run_mocha":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lib",
+				"cssjoin/lib/cssjoin.js"
+			],
+			[
+				"inde",
+				"cssjoin/index.js"
+			],
+			[
+				"css",
+				"cssjoin/bin/cssjoin.js"
+			],
+			[
+				"",
+				"cssjoin/index.js"
+			],
+			[
+				"mocha",
+				"cssjoin/test/mocha.js"
+			],
+			[
+				"cssj",
+				"cssjoin/bin/cssjoin.js"
+			],
+			[
+				"a",
+				"ricue/tmp/a/app.js"
+			],
+			[
+				"bincss",
+				"cssjoin/bin/cssjoin.js"
+			],
+			[
+				"moc",
+				"cssjoin/test/mocha.js"
+			],
+			[
+				"cssjoin",
+				"cssjoin/lib/cssjoin.js"
+			],
+			[
+				"utils",
+				"cssjoin/lib/util.js"
+			],
+			[
+				"util",
+				"cssjoin/lib/util.js"
+			],
+			[
+				"libcssj",
+				"cssjoin/lib/cssjoin.js"
+			],
+			[
+				"test/",
+				"test/mocha.js"
+			],
+			[
+				"testutil",
+				"test/util.js"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
+				"c",
+				"lib/cssinclude2.js"
+			],
+			[
+				"index",
+				"test/index.js"
+			],
+			[
+				"cssi",
+				"lib/cssinclude.js"
+			],
+			[
+				"import",
+				"test/lib/import_tree-test.js"
+			],
+			[
+				"include_",
+				"lib/less/include_css.js"
+			],
+			[
+				"include",
+				"test/mock/include_css_test.css"
+			],
+			[
+				"socke",
+				"app/socket.js"
+			],
+			[
+				"brow",
+				"app/views/browse.html"
+			],
+			[
+				"clie",
+				"client/logs/client.js"
+			],
+			[
+				"notif",
+				"app/views/notification.html"
+			],
+			[
+				"noti",
+				"app/views/notification.html"
+			],
+			[
+				"log.js",
+				"app/routes/log.js"
+			],
+			[
+				"notifjs",
+				"client/logs/jquery.notification.js"
+			],
+			[
+				"notification",
+				"client/logs/jquery.notification.js"
+			],
+			[
+				"client",
+				"client/logs/client.js"
+			],
+			[
+				"not",
+				"app/views/notification.html"
+			],
+			[
+				"bac",
+				"client/logs/background.html"
+			],
+			[
+				"menu.html",
+				"app/views/_menu.html"
+			],
+			[
+				"imagemo",
+				"common/model/ImageModel.php"
+			],
+			[
+				"contentcreate.",
+				"app_front/template/manga/content/create.html"
+			],
+			[
+				"mangacreatevi",
+				"app_front/view/Manga/CreateView.php"
+			],
+			[
+				"createvie",
+				"app_front/view/Illust/CreateView.php"
+			],
+			[
+				"mangacreatehtm",
+				"app_front/template/manga/create.html"
+			],
+			[
+				"mangacontentcreate",
+				"app_front/template/manga/content/create.html"
+			],
+			[
+				"contentcr",
+				"app_front/template/manga/content/create.html"
+			],
+			[
+				"mangacreateaction",
+				"app_front/action/Manga/CreateAction.php"
+			],
+			[
+				"mangacampaignm",
+				"common/model/Manga/CampaignModel.php"
+			],
+			[
+				"campaignmo",
+				"common/model/CampaignModel.php"
+			],
+			[
+				"contentcreatevi",
+				"app_front/view/Manga/Content/CreateView.php"
+			],
+			[
+				"contentcreate",
+				"app_front/template/manga/content/create.html"
+			],
+			[
+				"frontconfigini",
+				"app_front/config/config.ini"
+			],
+			[
+				"configini",
+				"app_conv/config/config.ini"
+			],
+			[
+				"mangacreate.",
+				"app_front/template/manga/create.html"
+			],
+			[
+				"mangacampaignmo",
+				"common/model/Manga/CampaignModel.php"
+			],
+			[
+				"mangacreateview",
+				"app_front/view/Manga/CreateView.php"
+			],
+			[
+				"mangacreateactio",
+				"app_front/action/Manga/CreateAction.php"
+			],
+			[
+				"campamod",
+				"common/model/CampaignModel.php"
+			],
+			[
+				"campaigndao",
+				"common/dao/CampaignDao.php"
+			],
+			[
+				"campaignmodel",
+				"common/model/Manga/CampaignModel.php"
+			],
+			[
+				"updateinfo",
+				"app_manage/action/Campaign/Update/InfoAction.php"
+			],
+			[
+				"campaignedit",
+				"app_manage/template/campaign/edit.html"
+			],
+			[
+				"campaignmode",
+				"common/model/CampaignModel.php"
+			],
+			[
+				"mangacreate",
+				"app_front/template/manga/create.html"
+			],
+			[
+				"campaignupdatein",
+				"app_manage/action/Campaign/Update/InfoAction.php"
+			],
+			[
+				"managecampaigedit",
+				"app_manage/template/campaign/edit.html"
+			],
+			[
+				"campaignupdateinfo",
+				"app_manage/action/Campaign/Update/InfoAction.php"
+			],
+			[
+				"campaignadd",
+				"app_manage/action/Campaign/AddAction.php"
+			],
+			[
+				"managecampaupd",
+				"app_manage/action/Campaign/Judge/UpdateAction.php"
+			],
+			[
+				"_head_el",
+				"app_front/template/_head_elm.html"
+			],
+			[
+				"managehead.htm",
+				"app_manage/template/_header.html"
+			],
+			[
+				"campaign.js",
+				"app_manage/htdocs/js/campaign.js"
+			],
+			[
+				"illust_",
+				"app_front/htdocs/css/illust_list.css"
+			],
+			[
+				"contribute",
+				"app_front/htdocs/css/manga/contribute.css"
+			],
+			[
+				"managecampaignhtml",
+				"app_manage/template/campaign/index.html"
+			],
+			[
+				"constcamp",
+				"common/const/ConstCampaign.php"
+			],
+			[
+				"contribute.c",
+				"app_front/htdocs/css/manga/contribute.css"
+			],
+			[
+				"conscampaign",
+				"common/const/ConstCampaign.php"
+			],
+			[
+				"_header",
+				"app_front/template/_header.html"
+			],
+			[
+				"_wedd",
+				"app_front/template/illust/_wedding.html"
+			],
+			[
+				".less",
+				"app_front/htdocs/less/manga/list.less"
+			],
+			[
+				"illustindexv",
+				"app_front/view/Illust/IndexView.php"
+			],
+			[
+				"indexview",
+				"app_front/view/IndexView.php"
+			],
+			[
+				"weddin",
+				"app_front/template/illust/_wedding.html"
+			],
+			[
+				"lessmangaitem",
+				"app_front/htdocs/less/manga/_list_item.less"
+			],
+			[
+				"watchaction",
+				"app_front/action/WatchAction.php"
+			],
+			[
+				"mangaaction",
+				"app_front/action/My/MangaAction.php"
+			],
+			[
+				"frontmangawatchvi",
+				"app_front/view/Manga/WatchView.php"
+			],
+			[
+				"fronwatchview",
+				"app_front/view/WatchView.php"
+			],
+			[
+				"vertwatch",
+				"app_front/template/manga/vertical/watch.html"
+			],
+			[
+				"constima",
+				"common/const/ConstImage.php"
+			],
+			[
+				"frontthemeinfo",
+				"app_front/action/Api/Theme/InfoAction.php"
+			],
+			[
+				"themeinfoac",
+				"app_manage/action/Theme/InfoAction.php"
+			],
+			[
+				"themeinfo",
+				"app_manage/view/Theme/InfoView.php"
+			],
+			[
+				"frontcontentaddaction",
+				"app_front/action/Manga/Content/AddAction.php"
+			],
+			[
+				"mgcontentsmode",
+				"common/model/Manga/ContentsModel.php"
+			],
+			[
+				"contentdao",
+				"common/dao/Manga/ContentsDao.php"
+			],
+			[
+				"contentmode",
+				"common/model/Manga/ContentsModel.php"
+			],
+			[
+				"apimangaremove",
+				"app_front/action/Ajax/Manga/Favorite/RemoveAction.php"
+			],
+			[
+				"favoritere",
+				"app_front/action/Ajax/Manga/Favorite/RemoveAction.php"
+			],
+			[
+				"mangaremoveaction",
+				"app_front/action/Ajax/Manga/Favorite/RemoveAction.php"
+			],
+			[
+				"watchitemlo",
+				"common/dao/WatchitemLocalDao.php"
+			],
+			[
+				"peruser",
+				"common/dao/Personalize/UserInfoDao.php"
+			],
+			[
+				"perilld",
+				"common/dao/Personalize/IllustDao.php"
+			],
+			[
+				"permode",
+				"common/model/PersonalizeModel.php"
+			],
+			[
+				"cliperso",
+				"app_manage/action/Cli/Personalize/CleanAction.php"
+			],
+			[
+				"jqcoo",
+				"app_front/htdocs/js/jquery/jquery.cookie.js"
+			],
+			[
+				"viewswitch",
+				"app_front/template/manga/_view_switch.html"
+			],
+			[
+				"swit",
+				"app_front/template/manga/special/gogo/_switch.html"
+			],
+			[
+				"switch",
+				"app_front/htdocs/js/manga/switcher.js"
+			],
+			[
+				"_view_s",
+				"app_front/template/manga/_view_switch.html"
+			],
+			[
+				"remoteapi",
+				"common/core/RemoteApi.php"
+			],
+			[
+				"action",
+				"app_manage/action/Mobile/Info/QrAction.php"
+			],
+			[
+				"apisolr",
+				"common/model/Api/SolrModel.php"
+			],
+			[
+				"reque",
+				"common/core/Request.php"
+			],
+			[
+				"solrselect",
+				"app_manage/action/Solr/SelectAction.php"
+			],
+			[
+				"_m",
+				"app_front/htdocs/less/_mixin.less"
+			],
+			[
+				"slider.js",
+				"app_front/htdocs/js/jquery/jquery.ui.slider.js"
+			],
+			[
+				"controlvi",
+				"app_front/htdocs/js/manga/vertical/view/control_view.js"
+			],
+			[
+				"vpos",
+				"app_front/htdocs/js/manga/vertical/view/vpos_view.js"
+			],
+			[
+				"vertical.",
+				"app_front/htdocs/less/manga/watch/vertical.less"
+			],
+			[
+				"start_pla",
+				"app_front/htdocs/js/manga/vertical/start_player.js"
+			],
+			[
+				"jknav",
+				"app_front/htdocs/js/manga/vertical/view/jknav_controller.js"
+			],
+			[
+				"_controls",
+				"app_front/template/manga/vertical/_controls.html"
+			],
+			[
+				"controljs",
+				"app_front/htdocs/js/manga/vertical/view/control_view.js"
+			],
+			[
+				"comicindexview",
+				"app_front/view/Comic/IndexView.php"
+			],
+			[
+				"basemangaview",
+				"app_front/base/BaseMangaView.php"
+			],
+			[
+				"mangamenuhtml",
+				"app_front/template/manga/_menu.html"
+			],
+			[
+				"magnamenu",
+				"app_manage/template/shunga/_menu.html"
+			],
+			[
+				"mangaindexhtml",
+				"app_front/template/manga/index.html"
+			],
+			[
+				"seiga.css",
+				"app_front/htdocs/css/seiga.css"
+			],
+			[
+				"tagdefauhtml",
+				"app_front/template/tag/default.html"
+			],
+			[
+				"taghtml",
+				"app_front/template/illust/taglist.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"cssjoi",
+				"/G/Dropbox/github/grunt-cssjoin/project.sublime-project"
+			],
+			[
+				"css inc",
+				"/G/Dropbox/github/css-inclusion/project.sublime-project"
+			],
+			[
+				"c",
+				"/G/Dropbox/github/css-inclusion/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true
+}

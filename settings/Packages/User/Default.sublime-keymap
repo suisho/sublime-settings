@@ -1,0 +1,44 @@
+[
+  { "keys" : ["ctrl+shift+alt+w"], "command": "close_all" },
+
+  { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  { "keys": ["ctrl+shift+p"], "command": "goto_folder"},
+  { "keys": ["ctrl+["], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  { "keys": ["ctrl+]"], "command": "none"},
+  { "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
+  { "keys": ["ctrl+d"], "command": "duplicate_line" },
+  { "keys": ["ctrl+shift+c"], "command": "open_terminal_project_folder" },
+  { "keys": ["ctrl+alt+space"], "command" : "convert_to_spaces"},
+
+  { "keys": ["f2"],   "command": "side_bar_rename" },
+  { "keys": ["ctrl+n"], "command": "new_window" },
+  { "keys" : ["ctrl+t"], "command" : "new_file"},
+
+  { "keys": ["ctrl+shift+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+  { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "regexp":false,"reverse" : false} },
+  { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "incremental_find", "regexp":true} },
+  { "keys": ["ctrl+shift+space"], "command": "auto_complete" },
+  { "keys": ["ctrl+space"], "command": "code_intel_auto_complete" },
+  { "keys": ["ctrl+alt+l"], "command": "sublimelinter_show_errors" },
+  { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+  { "keys": ["ctrl+alt+t"], "command": "open_terminal" },
+  { "keys": ["ctrl+shift+pageup"], "command": "prev_view_in_group" },
+  { "keys": ["ctrl+shift+pagedown"], "command": "next_view_in_group" },
+  { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["ctrl+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+  { "keys": ["ctrl+alt+s"], "command": "prompt_select_project", "args": {"setting": "word_wrap"} },
+
+  { "keys": ["ctrl+g"], "command": ""},
+  { "keys": ["ctrl+g","ctrl+g"], "command": "git_graph_all"},
+  { "keys": ["ctrl+g","ctrl+a"], "command": "git_add"},
+  { "keys": ["ctrl+g","ctrl+c"], "command": "git_commit"},
+  { "keys": ["ctrl+g","ctrl+d"], "command": "git_diff"},
+  { "keys": ["ctrl+g","ctrl+s"], "command": "git_status"},
+  { "keys": ["ctrl+g","ctrl+l"], "command": "git_log"},
+  { "keys": ["ctrl+g","ctrl+b"], "command": "git_branch"},
+  
+  { "keys" : ["ctrl+shift+w"], "command": "close_others" },
+  {}
+]

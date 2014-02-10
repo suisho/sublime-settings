@@ -1,0 +1,35 @@
+[
+/*
+  { "keys": ["tab"], "command": "UNBOUND" } ,
+  { "keys": ["tab"], "command": "insert", "args": {"characters": "\t"} },
+  { "keys": ["tab"], "command": "replace_completion_with_next_completion", "context":
+    [
+      { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+      { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "reindent", "context":
+    [
+      { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true },
+      { "key": "following_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "indent", "context":
+    [
+      { "key": "text", "operator": "regex_contains", "operand": "\n" }
+    ]
+  },
+  { "keys": ["tab"], "command": "next_field", "context":
+    [
+      { "key": "has_next_field", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["tab"], "command": "commit_completion", "context":
+    [
+      { "key": "auto_complete_visible" },
+      { "key": "setting.auto_complete_commit_on_tab" }
+    ]
+  }*/
+]

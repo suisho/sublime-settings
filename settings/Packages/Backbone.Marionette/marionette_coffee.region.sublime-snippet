@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${0:MyApp}.addRegions ->
+  foo: "#foo"
+]]></content>
+    <tabTrigger>bmrc</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>Backbone.Marionette Region definition</description>
+</snippet>

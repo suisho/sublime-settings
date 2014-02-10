@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$this->controller->getLogger()->log(Logger::LOG_WARNING,${0});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>log</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Log</description>
+</snippet>

@@ -1,0 +1,4 @@
+[
+    { "caption": "QuickRef", "command": "quick_ref", "args": { "regular_run_mode": true }},
+    { "caption": "QuickRef: Add/remove favourites", "command": "quick_ref"}
+]
