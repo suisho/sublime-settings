@@ -1,8 +1,14 @@
-FileDiffs Plugin for Sublime Text 2
-===================================
+FileDiffs Plugin
+================
 
-Shows diffs - also in an external diff tool - between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes.
+Shows diffs between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes. Can be configured to show diffs in an external diff tool
 
+Help!
+-----
+
+Check the [wiki][] for more tips
+
+[wiki]: https://github.com/colinta/SublimeFileDiffs/wiki
 
 Installation
 ------------
@@ -11,19 +17,25 @@ Installation
 
 Or:
 
-1. Open the Sublime Text 2 Packages folder
-
-    - OS X: ~/Library/Application Support/Sublime Text 2/Packages/
-    - Windows: %APPDATA%/Sublime Text 2/Packages/
-    - Linux: ~/.Sublime Text 2/Packages/ or ~/.config/sublime-text-2/Packages
+1. Open the Sublime Text Packages folder
+    - OS X: ~/Library/Application Support/Sublime Text 3/Packages/
+    - Windows: %APPDATA%/Sublime Text 3/Packages/
+    - Linux: ~/.Sublime Text 3/Packages/ or ~/.config/sublime-text-3/Packages
 
 2. clone this repo
 3. Install keymaps for the commands (see Example.sublime-keymap for my preferred keys)
 
-Add External Diff Tool
+### Sublime Text 2
+
+1. Open the Sublime Text 2 Packages folder
+2. clone this repo, but use the `st2` branch
+
+       git clone -b st2 git@github.com:colinta/SublimeFileDiffs
+
+Add External Diff Tool *(optional)*
 --------
 
-(IMPORTANT: Dont forget to make a correct symlink (e.g. in /usr/bin) pointing to the command line tool of your external diff tool)
+(IMPORTANT: You might need to make a symlink (e.g. in /usr/local/bin) pointing to the command line tool of your external diff tool)
 
 1. Preferences > Package Settings > FileDiffs > Settings - Default
 
@@ -33,9 +45,9 @@ Add External Diff Tool
 Commands
 --------
 
-`file_diff_menu`: Shows a menu to select one of the file_diff commands.  Bound to `ctrl+shift+d`.
+`file_diff_menu`: Shows a menu to select one of the file_diff commands.  If you use the bindings in Example.sublime-keymap, this is bound to `ctrl+shift+d`.
 
-The rest of the commands are not bound by default:
+The rest of the commands do not need to be bound (accessible from the menu):
 
 `file_diff_clipboard`: Shows the diff of the current file or selection(s) and the clipboard (the clipboard is considered the "new" file unless `reverse` is True)
 
@@ -46,10 +58,3 @@ The rest of the commands are not bound by default:
 `file_diff_file`: Shows the diff of the current file or selection(s) and a file that is in the current project.
 
 `file_diff_tab`: Shows the diff of the current file or selection(s) and an open file (aka a file that has a tab).
-
-Help!
------
-
-Check the [wiki][] for more tips
-
-[wiki]: https://github.com/colinta/SublimeFileDiffs/wiki

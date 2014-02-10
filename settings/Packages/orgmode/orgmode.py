@@ -41,7 +41,6 @@ class OrgmodeNewTaskDocCommand(sublime_plugin.WindowCommand):
 
 
 def find_resolvers():
-    from os.path import splitext
     base = os.path.dirname(os.path.abspath(__file__))
     path = base + '/resolver'
     available_resolvers = {}
@@ -218,6 +217,9 @@ class AbstractCheckboxCommand(sublime_plugin.TextCommand):
             point = view.text_point(row, 0)
             line = view.line(point)
             content = view.substr(line)
+            summary = self.get_summary(line)
+            if summary and content.lstrip().startswith("*"):
+                 break
             if self.checkbox_regex.search(content):
                 cur_indent = len(self.get_indent(content))
                 # check for end of descendants
@@ -265,7 +267,7 @@ class AbstractCheckboxCommand(sublime_plugin.TextCommand):
         if not match:
             return None
         # summary = match.group(1)
-        # print repr(summary)
+        # print(repr(summary))
         # print dir(match), match.start(), match.span()
         col_start, col_stop = match.span()
         return sublime.Region(
@@ -294,7 +296,7 @@ class AbstractCheckboxCommand(sublime_plugin.TextCommand):
         return '[X]' in self.view.substr(line)
 
     def recalc_summary(self, region):
-        # print region
+        # print('recalc_summary')
         children = self.find_children(region)
         if not len(children) > 0:
             return (0, 0)
@@ -302,11 +304,11 @@ class AbstractCheckboxCommand(sublime_plugin.TextCommand):
         num_children = len(children)
         checked_children = len(
             [child for child in children if self.is_checked(child)])
-        # print checked_children, num_children
+        # print ('checked_children: ' + str(checked_children) + ', num_children: ' + str(num_children))
         return (num_children, checked_children)
 
-    def update_line(self, edit, region):
-        # print 'update_line', self.view.rowcol(region.begin())[0]+1
+    def update_line(self, edit, region, parent_update=True):
+        print ('update_line', self.view.rowcol(region.begin())[0]+1)
         (num_children, checked_children) = self.recalc_summary(region)
         if not num_children > 0:
             return False
@@ -317,18 +319,28 @@ class AbstractCheckboxCommand(sublime_plugin.TextCommand):
             self.toggle_checkbox(edit, region, False)
         # update region summary
         self.update_summary(edit, region, checked_children, num_children)
-        # update parent
-        parent = self.find_parent(region)
-        if parent:
-            self.update_line(edit, parent)
+
+        children = self.find_children(region)
+        for child in children:
+            line = self.view.line(child)
+            summary = self.get_summary(self.view.line(child))
+            if summary:
+                return self.update_line(edit, line, parent_update=False)
+
+        if parent_update:
+            parent = self.find_parent(region)
+            if parent:
+                self.update_line(edit, parent)
+
         return True
 
     def update_summary(self, edit, region, checked_children, num_children):
-        # print 'update_summary', self.view.rowcol(region.begin())[0]+1
+        # print('update_summary', self.view.rowcol(region.begin())[0]+1)
         view = self.view
         summary = self.get_summary(region)
         if not summary:
             return False
+        # print('checked_children: ' + str(checked_children) + ', num_children: ' + str(num_children))
         view.replace(edit, summary, '[%d/%d]' % (
             checked_children, num_children))
 

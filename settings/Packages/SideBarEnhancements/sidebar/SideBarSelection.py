@@ -3,8 +3,8 @@ import sublime
 import os
 import re
 
-from SideBarProject import SideBarProject
-from SideBarItem import SideBarItem
+from .SideBarProject import SideBarProject
+from .SideBarItem import SideBarItem
 
 class SideBarSelection:
 
@@ -180,7 +180,7 @@ class SideBarSelection:
 		return new_list
 
 	def isNone(self, path):
-		if path == None or path == '' or path == '.' or path == '..' or path == './' or path == '/' or path == '//' or path == '\\' or path == '\\\\' or path == '\\\\\\\\':
+		if path == None or path == '' or path == '.' or path == '..' or path == './' or path == '../' or path == '/' or path == '//' or path == '\\' or path == '\\\\' or path == '\\\\\\\\' or path == '\\\\?\\' or path == '\\\\?' or path == '\\\\\\\\?\\\\':
 			return True
 		else:
 			return False
