@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12pt;
+}
+
+h4 { font-size: 100%; }
+h3 { font-size: 133%; }
+h2 { font-size: 150%; }
+h1 { font-size: 200%; }
+h1.title { font-size: 225%; }
+
+.document {
+    text-align: left;
+    display: inline-block;
+    max-width: 45em;
+}
+
+h1.title {
+    text-align: center;
+    border-bottom: 2px solid #2461AA;
+    font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2461AA;
+    border-bottom: 1px solid #2461AA;
+    font-weight: normal;
+}
+
+pre.literal-block {
+    margin-left: 2em;
+    font-size: 11pt;
+}
+
+dt {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+}
+
+td, th {
+    border: none;
+    padding: 0.2em;
+}
+
+thead th {
+    border-bottom: 1px solid #2461AA;
+    color: #2461AA;
+}
+

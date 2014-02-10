@@ -1,0 +1,11 @@
+Ver 2.5
+========
+
+Major update! QuickRef now supports both ST2 and ST3 from the same package.
+Changed where favourites data is stored to QuickRefData. Please copy your favourites over from the old file!
+
+
+
+=====
+For complete change log, see menu: Preferences -> Package Settings -> QuickRef -> Change Log
+For complete readme, see menu: Preferences -> Package Settings -> QuickRef -> ReadMe

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+Hello, ${1:this} is a ${2:snippet}.
+tr
+  td ${1:キー}
+  td ${2:説明}
+  td ${3:入力できる値}
+  td ${4:デフォルト値}
+  td ${5:入力値による挙動}
+  td ${6:備考}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+   <tabTrigger>apikey</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jade</scope>
+</snippet>

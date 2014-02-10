@@ -1,0 +1,105 @@
+Ver 2.5
+========
+
+Major update! QuickRef now supports both ST2 and ST3 from the same package.
+Changed where favourites data is stored to QuickRefData. Please copy your favourites over from the old file!
+
+Ver 2.1
+=======
+
+Rablador presents: QuickRef for Sublime Text 3!
+Note: The two versions of QuickRef are not interchangeable. You need the correct build for the version of Sublime Text that you are using.
+ST2: https://bitbucket.org/rablador/quickref
+ST3: https://bitbucket.org/rablador/quickref-st3
+
+New features (QuicRef for ST3)
+------------------------------
+All the features from QuickRef for Sublime Text 2 :).
+
+New features (QuicRef for ST2/ST3)
+----------------------------------
+Show update "splash" item in command list when QuickRef is updated.
+
+Ver 2.05
+========
+
+Announcement
+------------
+Working on a port for Sublime Text 3. Stay tuned!
+
+New features
+------------
+Favourites now being moved to the to of the list without "sort_alphabetically" set to "true".
+
+Ver 2.0
+=======
+
+Major release! Users may now filter out favourite commands right from the command palette.
+
+New features
+------------
+Add/remove favourites mode
+How to:
+1. Use a keyboard shortcut (eg. `alt+shift+p` on Windows) to bring up the QuickRef command palette in add/remove favourites mode.
+2. Simply select the command you want to mark and immediately see it get pefixed with a (*). If "Sort alphabetically" is on, all favourites will be displayed at the top of the list.
+
+Show favourites
+Show favourite commands in the QuickRef command palette. Favourites will be displayed at the top of the list with a prefixed (*).
+
+Error messages
+Now showing error messages when QuickRef is seriously misbehaving (no more guessing who's doing it wrong).
+
+Ver 1.6
+=======
+
+New features
+------------
+Command contexts
+Show contexts for commands. They will be displayed in parenthesis after a command.
+
+Remove duplicate contexts
+Remove commands with duplicate contexts and thereby reduce potentially superfluous items.
+
+Ver 1.5
+=======
+
+New features
+------------
+Beautify captions
+Beautify captions. E.g.: "clear_fields" -> "Clear fields". Great for users who don't want to add captions manually.
+
+User commands
+Choose whether to show or hide user added commands.
+
+User key bindings
+Choose whether to show or hide commands from the user bindings file.
+
+Default key bindings
+Choose whether to show or hide commands from the default bindings file.
+
+Remove duplicates
+When choosing to show commands from the default key bindings file, this feature removes duplicates.
+
+Shortcut key filter
+Filter out commands by shortcut keys.
+
+Bugs
+----
+Proper fix of bug from version 1.06.
+Fixed path not working in OSX (made QuickRef not start at all!).
+
+Ver 1.06
+========
+
+Temporarily fixed bug where missing setting in user's settings file results in QuickRef not loading. Proper fix in next update.
+
+Ver 1.05
+========
+
+Fixed bug that made alphabetical sorting not work as intended in all cases.
+Added setting to sort commands alphabetically or in the order that they are added to the settings file.
+
+Ver 1.0
+=======
+
+First release!

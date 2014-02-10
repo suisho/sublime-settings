@@ -1,0 +1,36 @@
+2012-12-26 19:27:03
+Traceback (most recent call last):
+  File "./sublimesvn/threads.py", line 18, in run_with_except_hook
+  File "./sublimesvn/listeners.py", line 30, in run
+  File "./sublimesvn/proc.py", line 71, in get_wc_root
+  File "./sublimesvn/proc.py", line 122, in find_wc_root
+  File "./sublimesvn/proc.py", line 895, in run
+  File "./sublimesvn/proc.py", line 355, in __init__
+  File "./sublimesvn/proc.py", line 400, in open
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 842, in _execute_child
+TypeError: environment can only contain strings
+2012-12-26 19:27:07
+Traceback (most recent call last):
+  File "./sublimesvn/threads.py", line 18, in run_with_except_hook
+  File "./sublimesvn/listeners.py", line 30, in run
+  File "./sublimesvn/proc.py", line 71, in get_wc_root
+  File "./sublimesvn/proc.py", line 122, in find_wc_root
+  File "./sublimesvn/proc.py", line 895, in run
+  File "./sublimesvn/proc.py", line 355, in __init__
+  File "./sublimesvn/proc.py", line 400, in open
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 842, in _execute_child
+TypeError: environment can only contain strings
+2012-12-26 19:27:12
+Traceback (most recent call last):
+  File "./sublimesvn/threads.py", line 18, in run_with_except_hook
+  File "./sublimesvn/listeners.py", line 30, in run
+  File "./sublimesvn/proc.py", line 71, in get_wc_root
+  File "./sublimesvn/proc.py", line 122, in find_wc_root
+  File "./sublimesvn/proc.py", line 895, in run
+  File "./sublimesvn/proc.py", line 355, in __init__
+  File "./sublimesvn/proc.py", line 400, in open
+  File ".\subprocess.py", line 633, in __init__
+  File ".\subprocess.py", line 842, in _execute_child
+TypeError: environment can only contain strings

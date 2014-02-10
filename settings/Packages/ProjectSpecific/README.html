@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9.1: http://docutils.sourceforge.net/" />
+<title>Project-Specific</title>
+<style type="text/css">
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12pt;
+}
+
+h4 { font-size: 100%; }
+h3 { font-size: 133%; }
+h2 { font-size: 150%; }
+h1 { font-size: 200%; }
+h1.title { font-size: 225%; }
+
+.document {
+    text-align: left;
+    display: inline-block;
+    max-width: 45em;
+}
+
+h1.title {
+    text-align: center;
+    border-bottom: 2px solid #2461AA;
+    font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2461AA;
+    border-bottom: 1px solid #2461AA;
+    font-weight: normal;
+}
+
+pre.literal-block {
+    margin-left: 2em;
+    font-size: 11pt;
+}
+
+dt {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+}
+
+td, th {
+    border: none;
+    padding: 0.2em;
+}
+
+thead th {
+    border-bottom: 1px solid #2461AA;
+    color: #2461AA;
+}
+
+
+</style>
+</head>
+<body>
+<div class="document" id="project-specific">
+<h1 class="title">Project-Specific</h1>
+
+<p>This extension enables you to add project specific configuration
+to Sublime Text 2.</p>
+<p>Example:</p>
+<pre class="literal-block">
+{
+    &quot;folders&quot;: ...
+    &quot;settings&quot;: {
+        &quot;project-specific&quot;: {
+            &quot;sublime-keymap&quot;: [
+                {&quot;keys&quot;: [ &quot;ctrl+B&quot;], &quot;command&quot;: &quot;exec&quot;, &quot;args&quot;: [&quot;echo&quot;, &quot;my build&quot;]}
+            ],
+            &quot;sublime-commands&quot;: [
+                {&quot;caption&quot;: &quot;My Command&quot;, &quot;command&quot;: &quot;open_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;my file.x&quot;} }
+            ]
+            &quot;sublime-macro&quot;: {
+                &quot;macro1&quot;: [ ... ],
+                &quot;macro2&quot;: [ ... ]
+            }
+        }
+    }
+
+}
+</pre>
+<p>Each time you switch to a project, the configuration files in
+<tt class="docutils literal"><span class="pre">User/Project-Specific</span></tt> will be updated.  For example above, there
+would be created:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">User/Project-Specific/Default.sublime-keymap</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">User/Project-Specific/&lt;project-name&gt;.sublime-commands</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">User/Project-Specific/&lt;project-name&gt;</span> <span class="pre">macro1.sublime-macro</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">User/Project-Specific/&lt;project-name&gt;</span> <span class="pre">macro2.sublime-macro</span></tt></li>
+</ul>
+<p>Basically there will be created a file <tt class="docutils literal"><span class="pre">&lt;project-name&gt;.&lt;key&gt;</span></tt> for each
+key of <em>project-specific</em> dictionary, if value is a list.  If value is
+a dictionary with subkey, then files <tt class="docutils literal"><span class="pre">&lt;project-name&gt;</span> <span class="pre">&lt;subkey&gt;.&lt;key&gt;</span></tt>
+will be created.</p>
+<p><em>sublime-keymap</em> configuration is an exception, because file-name
+must be <tt class="docutils literal">Default</tt>.  If you use here a subdictionary, your key can
+contain (case-insensitive) <em>linux</em>, <em>osx</em>, <em>windows</em> for os-specific
+keymaps, any other key will be mapped to <tt class="docutils literal">Default</tt> (if there are
+multiple keys mapped to <tt class="docutils literal">Default</tt> only the last processed is taken,
+values are not merged!).</p>
+</div>
+</body>
+</html>
