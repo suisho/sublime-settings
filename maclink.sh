@@ -6,5 +6,5 @@ PWD=`pwd`
 ln -s -f "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 ln -s -f "/Applications/Sublime Text2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime2
 
-ln -s -f "${PWD}/Data/Packages" "${SUBLIME}"
-ln -s -f "${PWD}/Data/Installed Packages" "${SUBLIME}"
+ln -s -f "${PWD}/settings/Packages" "${SUBLIME}"
+ln -s -f "${PWD}/settings/Installed Packages" "${SUBLIME}"
