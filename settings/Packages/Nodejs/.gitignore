@@ -1,0 +1,4 @@
+*.pyc
+*.cache
+*.bak
+node_modules
