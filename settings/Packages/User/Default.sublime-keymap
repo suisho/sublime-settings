@@ -2,6 +2,8 @@
   { "keys" : ["ctrl+shift+alt+w"], "command": "close_all" },
 
   { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  //{ "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
   { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
   { "keys": ["ctrl+shift+p"], "command": "goto_folder"},
@@ -9,6 +11,7 @@
   { "keys": ["ctrl+]"], "command": "none"},
   { "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
   { "keys": ["ctrl+d"], "command": "duplicate_line" },
+  { "keys": ["super+d"], "command": "duplicate_line" },
   { "keys": ["ctrl+shift+c"], "command": "open_terminal_project_folder" },
   { "keys": ["ctrl+alt+space"], "command" : "convert_to_spaces"},
 
@@ -40,5 +43,4 @@
   { "keys": ["ctrl+g","ctrl+b"], "command": "git_branch"},
   
   { "keys" : ["ctrl+shift+w"], "command": "close_others" },
-  {}
 ]
