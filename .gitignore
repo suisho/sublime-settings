@@ -3,3 +3,5 @@ tmp/
 !.gitignore
 settings/Packages/User/FileHistory.sublime-settings
 settings/Packages/User/encoding_cache.json
+Package Control.cache
+*.pyc
