@@ -93,7 +93,9 @@
 		"Theme - Soda",
 		"Themr",
 		"Tortoise",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"WordCount",
+		"yardoc"
 	],
 	"repositories":
 	[

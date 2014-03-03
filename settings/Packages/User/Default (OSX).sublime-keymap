@@ -1,7 +1,7 @@
 [
 	{
-		"keys": ["super+alt+w"],
-		"command": "close_window"
+		"keys": ["f2"],
+		"command": "side_bar_rename"
 	},
 	{
 		"keys": ["super+d"],
@@ -9,14 +9,10 @@
 	},
 	{
 		"keys": ["super+r"],
-		"command": "show_overlay", "args": {"overlay": "goto", "show_files": true}
+		"command": "show_overlay", "args": {"show_files": true, "overlay": "goto"}
 	},
 	{
 		"keys": ["super+shift+w"],
-		"command": "close_others"
-	},
-	{
-		"keys": ["f2"],
-		"command": "side_bar_rename"
+		"command": "close_window"
 	}
 ]
