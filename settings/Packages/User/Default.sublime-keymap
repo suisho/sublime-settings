@@ -33,7 +33,7 @@
 	},
 	{
 		"keys": ["ctrl+f"],
-		"command": "show_panel", "args": {"regexp": true, "panel": "incremental_find"}
+		"command": "show_panel", "args": {"panel": "incremental_find", "regexp": true}
 	},
 	{
 		"keys": ["ctrl+g"],
@@ -69,7 +69,7 @@
 	},
 	{
 		"keys": ["ctrl+i"],
-		"command": "show_panel", "args": {"regexp": false, "panel": "incremental_find", "reverse": false}
+		"command": "show_panel", "args": {"panel": "incremental_find", "regexp": false, "reverse": false}
 	},
 	{
 		"keys": ["ctrl+n"],
@@ -81,7 +81,7 @@
 	},
 	{
 		"keys": ["ctrl+r"],
-		"command": "show_overlay", "args": {"overlay": "goto", "show_files": true}
+		"command": "show_overlay", "args": {"show_files": true, "overlay": "goto"}
 	},
 	{
 		"keys": ["ctrl+shift+alt+w"],
@@ -97,11 +97,11 @@
 	},
 	{
 		"keys": ["ctrl+shift+e"],
-		"command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}
+		"command": "open_dir", "args": {"file": "$file_name", "dir": "$file_path"}
 	},
 	{
 		"keys": ["ctrl+shift+g"],
-		"command": "show_overlay", "args": {"overlay": "goto", "text": ":"}
+		"command": "show_overlay", "args": {"text": ":", "overlay": "goto"}
 	},
 	{
 		"keys": ["ctrl+shift+p"],
@@ -117,7 +117,7 @@
 	},
 	{
 		"keys": ["ctrl+shift+r"],
-		"command": "show_overlay", "args": {"overlay": "goto", "text": "@"}
+		"command": "show_overlay", "args": {"text": "@", "overlay": "goto"}
 	},
 	{
 		"keys": ["ctrl+shift+space"],
